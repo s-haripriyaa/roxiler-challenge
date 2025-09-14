@@ -1,6 +1,10 @@
+## Rating App
+
+A full-stack web application for managing stores, users, and ratings with role-based access (Admin, Owner, User). Built with Next.js, Prisma, MySQL, Tailwind CSS, and JWT authentication.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Getting Started
 
 First, run the development server:
 
@@ -20,6 +24,28 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+Feature	Link
+Landing / Home	http://localhost:3000
+
+User Login	http://localhost:3000/login
+
+User Signup	http://localhost:3000/signup
+
+Stores Page	http://localhost:3000/stores
+
+Admin Dashboard	http://localhost:3000/admin/dashboard
+
+Admin Users Management	http://localhost:3000/admin/users
+
+Admin Stores Management	http://localhost:3000/admin/stores
+
+Store Filters	http://localhost:3000/admin/stores/filters
+
+
+
+The outputs are provided in the folder:
+[output.zip](https://github.com/user-attachments/files/22322051/output.zip)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -29,8 +55,4 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
