@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: moonChar
+      MYSQL_DATABASE: rating_app
+      MYSQL_USER: ratinguser
+      MYSQL_PASSWORD: ratingpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+volumes:
+  dbdata:
